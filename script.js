@@ -25,5 +25,5 @@ function toggleAnswer(element) {
 
 // chatbot
 document.getElementById("chatButton").onclick = function() {
-    window.location.href = "ml.html";
+    window.location.href = "assistant.html";
   };
