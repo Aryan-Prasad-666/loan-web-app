@@ -22,3 +22,8 @@ function toggleAnswer(element) {
     let answer = element.nextElementSibling;
     answer.style.display = (answer.style.display === "block") ? "none" : "block";
 }
+
+// chatbot
+document.getElementById("chatButton").onclick = function() {
+    window.location.href = "ml.html";
+  };
